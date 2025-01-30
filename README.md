@@ -10,6 +10,9 @@ Analyzes web content against compliance policies.
 - RESTful API with FastAPI backend
 - Interactive Streamlit frontend
 
+## Live at
+http://13.233.69.2:8501/
+
 ## Installation
 
 ### Prerequisites
