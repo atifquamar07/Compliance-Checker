@@ -1,0 +1,33 @@
+# Web Framework and ASGI Server
+fastapi
+uvicorn[standard]
+
+# HTTP and Web Scraping
+requests
+beautifulsoup4
+trafilatura
+lxml
+
+# AI/LLM Integration
+groq
+
+# Data Validation and Settings Management
+pydantic
+pydantic-settings
+
+# Testing
+pytest
+pytest-asyncio
+httpx
+
+# Development Tools
+python-dotenv
+black
+flake8
+isort
+requests 
+aiohttp 
+sseclient-py
+termcolor
+gunicorn
+streamlit
