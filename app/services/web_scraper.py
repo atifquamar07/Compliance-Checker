@@ -31,11 +31,6 @@ class WebScraper:
                 "meta_info": self._extract_meta_info(soup)
             }
             
-            # print("Content fetched: ")
-            # print(colored(output['clean_text'], "black", "on_white"))
-            # # print(colored(output['sections'], "white", "on_red"))
-            # print(colored(output['meta_info'], "black", "on_cyan"))
-            
             return output
         except Exception as e:
             raise Exception(f"Failed to fetch content: {str(e)}")

@@ -37,7 +37,6 @@ class TextAnalyzer:
             
             extracted_rules = rules_completion.choices[0].message.content
             
-            # print(colored(extracted_rules, "green"))
             # Step 2: Analyze webpage against extracted rules
             analysis_prompt = self._create_analysis_prompt(
                 webpage_content['clean_text'],
@@ -60,7 +59,6 @@ class TextAnalyzer:
             )
             
             violations = analysis_completion.choices[0].message.content
-            # print(colored(violations, "yellow"))
             parsed_violations = self._parse_violations(analysis_completion.choices[0].message.content)
             
             return parsed_violations

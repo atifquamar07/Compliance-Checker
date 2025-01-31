@@ -31,20 +31,3 @@ class ComplianceChecker:
             violations=violations,
             scan_timestamp=datetime.utcnow().isoformat()
         )
-
-    # def _get_compliance_rules(self, policy_type: str) -> Dict:
-    #     """
-    #     Returns compliance rules based on policy type.
-    #     """
-    #     # In a real implementation, this would fetch rules from a database
-    #     return settings.COMPLIANCE_RULES
-
-
-    # def _generate_summary(self, violations: List[Dict]) -> Dict[str, int]:
-    #     """
-    #     Generates a summary of violations by severity.
-    #     """
-    #     summary = {"high": 0, "medium": 0, "low": 0}
-    #     for violation in violations:
-    #         summary[violation["severity"]] += 1
-    #     return summary
